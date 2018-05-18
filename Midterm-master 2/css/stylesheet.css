@@ -1,0 +1,101 @@
+h1{
+	font-family: "Avenir Next Condensed";
+	font-size: 48px;
+	color: #143578;
+	padding: 0%;
+	padding-top: 5%;
+	text-align: center;
+	width: 500px;
+	font-size: 55px;
+	margin-bottom: 0;
+}
+h2{
+	font-family: "Avenir Next Condensed";
+	color: #143578;
+	padding: 0px;
+	text-align: center;
+	width: 500px;
+	font-size: 30px;
+	margin-bottom: 0;
+}
+
+body{
+	background-color: #ffffff;
+	
+}
+
+a{
+	color:#074f67;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.wh{ width: 288px;
+	background-color: black;
+	padding: 36px 0 36px 0;
+
+
+}
+img {
+	transition: 1s ease;
+	opacity: .5;
+}
+ 
+
+img:hover{
+	opacity: 1;
+	filter: blur(0px);
+}
+
+img:active{
+	background-color: blue;
+}
+ 
+.images{
+	padding: 40px 40px 40px 40px;
+
+
+
+}
+
+.nav-container{ 	
+width:100%; 
+background-color: #143578;
+box-shadow: 4px 4px 20px #143578;  
+position:fixed; 
+left:0;  
+top:0;
+} 
+
+.nav-container ul{
+width:100%;
+margin: auto;
+padding:0; /*Ul would have default padding otherwise*/
+list-style-type: none; 
+font-size:18px;  
+font-family:"Avenir Next Condensed";
+}  
+
+.nav-container li{
+float: left;
+width: 20%; 
+}  
+
+.nav-container a{ 
+display: block;  /*let’s us treat each link as a box, which can be sized and styled*/ 
+box-sizing: border-box; /*allows the "width" to include borders and padding*/
+width: 100%; /*421px*/
+padding: 10px;
+text-decoration: none;  /*removes the default underline*/
+text-align: center; 
+background-color: #000000; /*colors the buttons initially*/
+color:#d7dce5;
+} 
+
+
+.nav-container a:hover{ 
+background-color: #143578;
+}

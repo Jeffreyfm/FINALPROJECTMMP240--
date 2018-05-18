@@ -1,0 +1,66 @@
+
+
+h2{
+	font-family: "Avenir Next Condensed";
+	color: #143578;
+	font-size: 25px;
+	padding-left: 800px;
+	padding-top: 270px;
+	padding-bottom: 10px;
+}
+
+p{
+	font-family: "Letter Gothic std";
+	font-size: 18px;
+	padding-left: 700px;
+	text-align: justify;
+
+
+}
+canvas{
+	position: absolute;
+	top: 30%;
+}
+
+}
+body{
+	background-color: #ffffff;
+}
+
+.nav-container{ 	
+width:100%; 
+background-color: #143578;
+box-shadow: 4px 4px 20px #143578;  
+position: fixed; 
+left:0;  
+top:0;
+} 
+
+.nav-container ul{
+width:100%;
+margin: auto;
+padding:0; /*Ul would have default padding otherwise*/
+list-style-type: none; 
+font-size:18px;  
+font-family:"Avenir Next Condensed";
+}  
+
+.nav-container li{
+float: left;
+width: 20%; 
+}  
+
+.nav-container a{ 
+display: block;  /*let’s us treat each link as a box, which can be sized and styled*/ 
+box-sizing: border-box; /*allows the "width" to include borders and padding*/
+width: 100%; /*421px*/
+padding: 10px;
+text-decoration: none;  /*removes the default underline*/
+text-align: center; 
+background-color: #000000; /*colors the buttons initially*/
+color:#d7dce5;
+} 
+
+.nav-container a:hover{ 
+background-color: #143578;
+}
